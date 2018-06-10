@@ -8,8 +8,6 @@ import csv
 import xml.etree.ElementTree as ET
 from flask import Flask, jsonify, request
 username='sameer1707'
-#start='2018-01-01'
-#end='2018-01-02'
 resp= requests.get("https://github.com/users/"+username+"/contributions")
 xmlfile='contri.xml'
 file=open('C:\Python36\output.txt','w+')
